@@ -64,14 +64,14 @@ body {
 
 .drop ul {
     position: absolute;
+	bottom: -30%;
     min-width: 100px;
     text-align: center;
-    color: aliceblue;
     background-color: #373C58;
     box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.25);
     margin-top: 10px;
     border-radius: 7px;
-    display: none;
+    
 }
 
 .drop ul li {
@@ -82,6 +82,7 @@ body {
     display: inline-block;
     width: 100%;
     height: 100%;
+	color: aliceblue;
 }
 
 
@@ -90,9 +91,9 @@ body {
     border-radius: 7px;
 }
 
-.drop a:focus + ul {
+/* .drop_list {
     display: block;
-}
+} */
 
 
 .btn_ikon {
@@ -107,8 +108,6 @@ color: #212121;
 }
 
 .btn_ikon_svg {
-    /* position: relative;
-    left: 5%; */
 	display: flex;
     justify-content: center;
 	width: 60px;
