@@ -1,7 +1,12 @@
+@font-face {
+	font-family: OPTIMistral-Graff;
+	src: url('../public/images/fonts/mistral-graff/OPTIMistral-Graff.otf') format("truetype");
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, DM Sans, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',Helvetica, Arial,"Apple Color Emoji", "Segoe UI Emoji",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

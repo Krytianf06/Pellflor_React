@@ -1,12 +1,4 @@
-@font-face {
-	font-family: OPTIMistral-Graff;
-	src: url('../../public/images/fonts/mistral-graff/OPTIMistral-Graff.otf') format("truetype");
-}
 
-
-body {
-    font-family: system-ui, -apple-system, "Segoe UI", Roboto, DM Sans, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-  }
 
 
 .header {
@@ -34,7 +26,7 @@ body {
 }
 
 .link {
-	font-family: "OPTIMistral-Graff";
+	font-family: DM Sans;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 14px;
