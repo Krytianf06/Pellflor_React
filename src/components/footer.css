@@ -1,5 +1,35 @@
 .footer {
-    min-height: 20vh;
+    
     padding: 50px 0;
     background-color: rgb(255, 157, 127);
+}
+.footer-wrapper {
+    display: block;
+    min-height: 20vh;
+    max-width: 80%;
+    padding: auto;
+	margin: 0 auto;
+    
+}
+.footer-top {
+    display:flex;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer-bootom {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid #7F9799;
+    justify-content: center;
+    align-items: center;
+}
+
+.policy__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.policy__list__item:not(:last-child) {
+    margin-right: 30px;
 }
