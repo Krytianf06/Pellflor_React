@@ -3,22 +3,12 @@ import "./przemyslowy.css";
 
 function Przemyslowy() {
 	return (
-		<div className='conteiner'>
-			<div className='box'>
-				<div className='box__left'>
-					<h1 className='title'>Nasze Produkty</h1>
-					<ul className='box__list'>
-						<li className='box__list__item'>Pellet Klasy A1</li>
-						<li className='box__list__item'>Pellet Przemysławy</li>
-						<li className='box__list__item'>Agro Pellet</li>
-					</ul>
-				</div>
 				<div className='box__right'>
 					<div className='box__header'>
 						<h1 className='box__header__title'>Pellet Klassy A1</h1>
 						<img
 							className='box__header__picture'
-							src={process.env.PUBLIC_URL + "./images/klasaA1.jpg"}
+							src={process.env.PUBLIC_URL + "./images/przemyslowy.jpg"}
 							alt='Pellet kalsay A1'
 							width='350'
 							height='250'
@@ -60,8 +50,6 @@ function Przemyslowy() {
 						</p>
 					</div>
 				</div>
-			</div>
-		</div>
 	);
 }
 
