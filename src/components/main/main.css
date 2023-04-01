@@ -1,0 +1,40 @@
+.conteiner {
+	height: 60vh;
+	padding: 50px 0;
+}
+
+.box {
+	display: flex;
+	flex-direction: column;
+	max-width: 80%;
+	margin: 0 auto;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Droid Sans';
+	
+}
+
+.title {
+	display: flex;
+	padding: 50px 10px;
+}
+
+.box__list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.box__list__item {
+	display: flex;
+	margin-bottom: 30px;
+	justify-content: center;
+	align-items: center;
+	height: 200px;
+	width: 200px;
+	background-color: aqua;
+}
+
+.box__list__item:not(:last-child) {
+	margin-right: 30px;
+}

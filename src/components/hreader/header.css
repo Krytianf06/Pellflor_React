@@ -1,15 +1,15 @@
 .wraper {
 	display: block;
-	height: 50vh;
+	height: 40vh;
 	padding: auto;
 	margin: 0 auto;
-	background: url("../../public/images/straw-role-duze_2.jpg") no-repeat;
+	background: url("../../../public/images/straw-role-duze_2.jpg") no-repeat;
 	background-position: center;
 }
 
 .header {
 	display: block;
-	height: 50vh;
+	/* height: 50vh; */
 	background-position: center;
 }
 
@@ -20,7 +20,7 @@
 	align-items: center;
 	position: relative;
 	z-index: 3;
-	background: url("../../public/images/header.png") center bottom repeat-x;
+	background: url("../../../public/images/header.png") center bottom repeat-x;
 }
 
 .header_top div:not(:last-child) {
@@ -40,7 +40,7 @@
 .shadows {
 	margin: 0 auto;
 	z-index: 3;
-	background: url("../../public/images/header.png") center bottom repeat-x;
+	background: url("../../../public/images/header.png") center bottom repeat-x;
 }
 
 .heder_bottom {
@@ -106,7 +106,7 @@
 	font-size: 18px;
 	line-height: 2.25;
 	letter-spacing: 0.06em;
-	color: #212121;
+	color: rgb(41, 78, 36);
 }
 
 .btn_ikon_svg {
@@ -115,7 +115,7 @@
 	width: 60px;
 	height: 50px;
 	border-radius: 30%;
-	fill: rgb(26, 28, 28);
+	fill: rgb(41, 78, 36);
 }
 
 .btn_ikon:hover .btn_ikon_svg,

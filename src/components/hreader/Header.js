@@ -1,9 +1,9 @@
 import React from "react";
 import "./header.css";
-import { useState } from "react";
+// import { useState } from "react";
 
 function Header() {
-	const [list, setList] = useState("none");
+	// const [list, setList] = useState("none");
 
 	// useEffect(() => {
 	// 	const tablica = localStorage.getItem("tablica");
@@ -12,14 +12,14 @@ function Header() {
 	// 	setLok(numer);
 	// }, [lok]);
 
-	const clickListMove = (ev) => {
-		console.log(ev.type);
-		if (ev.type === "mouseenter") {
-			setList("block");
-		} else if (ev.type === "mouseleave") {
-			setList("none");
-		}
-	};
+	// const clickListMove = (ev) => {
+	// 	console.log(ev.type);
+	// 	if (ev.type === "mouseenter") {
+	// 		setList("block");
+	// 	} else if (ev.type === "mouseleave") {
+	// 		setList("none");
+	// 	}
+	// };
 	// const clickList = (ev) => {
 	// 	console.log(ev.type);
 	// 	if (list === "none") {
@@ -80,7 +80,7 @@ function Header() {
 									</a>
 								</li>
 								<li
-									onMouseEnter={clickListMove}
+									// onMouseEnter={clickListMove}
 									className='heder_nav_list_item drop'>
 									<p className='btn_ikon' href='przyciski'>
 										Produkty
@@ -94,7 +94,7 @@ function Header() {
 											<path d='M32 16v-12h-24c0-1.105-0.895-2-2-2h-6v2h4l1.502 12.877c-0.915 0.733-1.502 1.859-1.502 3.123 0 2.209 1.791 4 4 4h24v-2h-24c-1.105 0-2-0.895-2-2 0-0.007 0-0.014 0-0.020l26-3.98z'></path>
 										</svg>
 									</p>
-									<ul
+									{/* <ul
 										onMouseLeave={clickListMove}
 										className='drop_list'
 										style={{ display: list }}>
@@ -107,7 +107,7 @@ function Header() {
 										<li>
 											<a href='przyciski'>Brukarstwo</a>
 										</li>
-									</ul>
+									</ul> */}
 								</li>
 								<li className='heder_nav_list_item'>
 									<a className='btn_ikon' href='przyciski'>
