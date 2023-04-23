@@ -19,8 +19,8 @@ function Footer() {
 				<div  className="contact">
 					<h1>Dane kontaktowe</h1>
 					<ul>
-            <li>Email: kamilos@gmail.com</li>
-            <li>tel.: +48 444-34-45</li>
+            <li><a href='mailto:kamilos@gmail.com'>Email: kamilos@gmail.com</a></li>
+            <li><a href='tel:48721720680'> tel.: +48 721-720-680</a></li>
 					</ul>
           </div>
           <div>

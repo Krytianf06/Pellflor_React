@@ -3,7 +3,7 @@
 	height: 40vh;
 	padding: auto;
 	margin: 0 auto;
-	background: url("../../../public/images/straw-role-duze_2.jpg") no-repeat;
+	background: url("../../../public/images/pellet_tlo_1.jpg") no-repeat;
 	background-position: center;
 }
 
@@ -40,7 +40,7 @@
 .shadows {
 	margin: 0 auto;
 	z-index: 3;
-	background: url("../../../public/images/header.png") center bottom repeat-x;
+	/* background: url("../../../public/images/header.png") center bottom repeat-x; */
 }
 
 .heder_bottom {
@@ -57,6 +57,19 @@
 	width: 100px;
 	height: 100px;
 	border-radius: 35%;
+}
+
+.logo__text {
+	font-family: "OPTIMistral-Graff";
+	font-style: italic;
+	font-weight: 700;
+	font-size: 54px;
+	line-height: 2.25;
+	letter-spacing: 0.06em;
+	color: green;
+}
+.logo__text-color {
+	color: brown;
 }
 
 .heder_nav_list {

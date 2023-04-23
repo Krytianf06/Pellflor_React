@@ -32,7 +32,7 @@ function Header() {
 			<div className='header'>
 				<div className='header_top'>
 					<div className='tel link'>
-						<a href='tel:4443445'> tel.: +48 444-34-45</a>
+						<a href='tel:48721720680'> tel.: +48 721-720-680</a>
 					</div>
 					<div className='email link'>
 						<a href='mailto:kamilos@gmail.com'>Email: kamilos@gmail.com</a>
@@ -51,6 +51,9 @@ function Header() {
 									alt='Logo'
 								/>
 							</a>
+						</div>
+						<div className='logo__text'>
+							<span className='logo__text-color'>PELL</span>FLOR
 						</div>
 						<div className='heder_nav'>
 							<ul className='heder_nav_list'>

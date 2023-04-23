@@ -1,5 +1,6 @@
 .conteiner {
-	height: 60vh;
+	
+	min-height: 60vh;
 	padding: 50px 0;
 }
 
@@ -36,6 +37,7 @@
 	height: 80px;
 	width: 80px;
 	background-color: aqua;
+	border-radius: 50%;
 }
 .box__left {
 }
