@@ -3,8 +3,29 @@
 	height: 40vh;
 	padding: auto;
 	margin: 0 auto;
-	background: url("../../../public/images/pellet_tlo_1.jpg") no-repeat;
+	background: url("../../../public/images/slider/image1.jpg") no-repeat;
 	background-position: center;
+	transition-duration:1s;;
+}
+
+.wraper2 {
+	display: block;
+	height: 40vh;
+	padding: auto;
+	margin: 0 auto;
+	background: url("../../../public/images/slider/image2.jpg") no-repeat;
+	background-position: center;
+	transition-duration:1s;
+}
+
+.wraper3 {
+	display: block;
+	height: 40vh;
+	padding: auto;
+	margin: 0 auto;
+	background: url("../../../public/images/slider/image3.jpg") no-repeat;
+	background-position: center;
+	transition-duration:1s;
 }
 
 .header {
@@ -50,7 +71,7 @@
 	margin: 0 auto;
 	justify-content: space-between;
 	align-items: center;
-	padding: 30px 50px;
+	padding: 80px 50px;
 }
 
 .logo {
