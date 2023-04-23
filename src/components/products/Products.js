@@ -18,7 +18,7 @@ function Products() {
 				</div>
 				{/* <AgroPellet /> */}
 				{/* <KlassaA1 /> */}
-				{/* <Przemyslowy/> */}
+				<Przemyslowy/>
 			</div>
 		</div>
 	);
