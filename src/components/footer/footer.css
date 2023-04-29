@@ -4,7 +4,6 @@
 }
 .footer-wrapper {
     display: block;
-    
     /* min-height: 20vh; */
     max-width: 80%;
     padding: auto;
@@ -32,4 +31,10 @@
 
 .policy__list__item:not(:last-child) {
     margin-right: 30px;
+}
+
+.social_logo {
+    width:40px;
+	height:40px;
+    border-radius: 50%;
 }

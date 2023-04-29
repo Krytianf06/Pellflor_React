@@ -1,10 +1,15 @@
 import React from "react";
 import Products from "../products/Products";
+import Home from "../Home/Home";
 import "./main.css";
 
 function Main() {
 	return (
-		<Products/>
+		<div>
+			<Home />
+			
+		</div>
+
 		// <div className='conteiner'>
 		// 	<div className='box'>
 		// 		<h1 className='title'>Nasze Produkty</h1>
