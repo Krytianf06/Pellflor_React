@@ -1,36 +1,37 @@
 .wraper {
-	display: block;
-	/* height: 40vh; */
-	padding: auto;
-	margin: 0 auto;
-	background: url("../../../public/images/slider/image1.jpg") no-repeat;
-	background-position: center;
-	transition-duration:1s;;
+	/* display: block; */
+	/* padding: auto; */
+	/* margin: 0 auto; */
+	/* background: url("../../../public/images/slider/image1.jpg") no-repeat; */
+	/* background-position: center; */
+	/* transition-duration:1s; */
 }
 
 .wraper2 {
 	display: block;
-	/* height: 40vh; */
 	padding: auto;
 	margin: 0 auto;
-	background: url("../../../public/images/slider/image2.jpg") no-repeat;
+	/* background: url("../../../public/images/slider/image2.jpg") no-repeat; */
 	background-position: center;
 	transition-duration:1s;
 }
 
 .wraper3 {
 	display: block;
-	/* height: 40vh; */
 	padding: auto;
 	margin: 0 auto;
-	background: url("../../../public/images/slider/image3.jpg") no-repeat;
+	/* background: url("../../../public/images/slider/image3.jpg") no-repeat; */
 	background-position: center;
 	transition-duration:1s;
 }
 
 .header {
+	/* position: absolute; */
 	display: block;
-	/* height: 50vh; */
+	padding: auto;
+	margin: 0 auto;
+	max-height: 250px;
+	width: 100%;
 	background-position: center;
 }
 
@@ -49,7 +50,7 @@
 }
 
 .link {
-	font-family: DM Sans;
+	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 500;
 	font-size: 14px;
@@ -59,6 +60,7 @@
 }
 
 .shadows {
+	padding: auto;
 	margin: 0 auto;
 	z-index: 3;
 	background: url("../../../public/images/header.png") center bottom repeat-x;
