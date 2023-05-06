@@ -11,7 +11,7 @@ function Header() {
 			} else {
 				setCurrentState(currentState + 1);
 			}
-		}, 10000);
+		}, 5000);
 		return () => clearTimeout(timer);
 	}, [currentState]);
 	const slider = {
@@ -36,35 +36,35 @@ function Header() {
 						<a href='adres'>Adress: 61-065 Wolkowo, Doły 11</a>
 					</div>
 				</div>
-				<div className='shadows'></div>
-				<div className='heder_bottom'>
-					<div className='heder_logo'>
-						<a href='mailto:kamilos@gmail.com'>
-							<img
-								className='logo'
-								src={process.env.PUBLIC_URL + "/images/logo2.png"}
-								alt='Logo'
-							/>
-						</a>
-					</div>
-					<div className='logo__text'>
-						<span className='logo__text-color'>PELL</span>FLOR
-					</div>
-					<div className='heder_nav'>
-						<ul className='heder_nav_list'>
-							<li className='heder_nav_list_item'>
-								<a className='btn_ikon' href='przyciski'>
-									<svg
-										version='1.1'
-										xmlns='http://www.w3.org/2000/svg'
-										className='btn_ikon_svg'
-										viewBox='0 0 32 32'>
-										<path d='M32 18.451l-16-12.42-16 12.42v-5.064l16-12.42 16 12.42zM28 18v12h-8v-8h-8v8h-8v-12l12-9z'></path>
-									</svg>
-									HOME
-								</a>
-							</li>
-							{/* <li className='heder_nav_list_item'>
+				<div className='shadows'>
+					<div className='heder_bottom'>
+						<div className='heder_logo'>
+							<a href='mailto:kamilos@gmail.com'>
+								<img
+									className='logo'
+									src={process.env.PUBLIC_URL + "/images/logo2.png"}
+									alt='Logo'
+								/>
+							</a>
+						</div>
+						<div className='logo__text'>
+							<span className='logo__text-color'>PELL</span>FLOR
+						</div>
+						<div className='heder_nav'>
+							<ul className='heder_nav_list'>
+								<li className='heder_nav_list_item'>
+									<a className='btn_ikon' href='przyciski'>
+										<svg
+											version='1.1'
+											xmlns='http://www.w3.org/2000/svg'
+											className='btn_ikon_svg'
+											viewBox='0 0 32 32'>
+											<path d='M32 18.451l-16-12.42-16 12.42v-5.064l16-12.42 16 12.42zM28 18v12h-8v-8h-8v8h-8v-12l12-9z'></path>
+										</svg>
+										HOME
+									</a>
+								</li>
+								{/* <li className='heder_nav_list_item'>
 										<a className='btn_ikon' href='przyciski'>
 											<svg
 												version='1.1'
@@ -77,22 +77,22 @@ function Header() {
 											O NAS
 										</a>
 									</li> */}
-							<li
-								// onMouseEnter={clickListMove}
-								className='heder_nav_list_item drop'>
-								<p className='btn_ikon' href='przyciski'>
-									<svg
-										version='1.1'
-										xmlns='http://www.w3.org/2000/svg'
-										className='btn_ikon_svg'
-										viewBox='0 0 35 30'>
-										<path d='M12 29c0 1.657-1.343 3-3 3s-3-1.343-3-3c0-1.657 1.343-3 3-3s3 1.343 3 3z'></path>
-										<path d='M32 29c0 1.657-1.343 3-3 3s-3-1.343-3-3c0-1.657 1.343-3 3-3s3 1.343 3 3z'></path>
-										<path d='M32 16v-12h-24c0-1.105-0.895-2-2-2h-6v2h4l1.502 12.877c-0.915 0.733-1.502 1.859-1.502 3.123 0 2.209 1.791 4 4 4h24v-2h-24c-1.105 0-2-0.895-2-2 0-0.007 0-0.014 0-0.020l26-3.98z'></path>
-									</svg>
-									Produkty
-								</p>
-								{/* <ul
+								<li
+									// onMouseEnter={clickListMove}
+									className='heder_nav_list_item drop'>
+									<p className='btn_ikon' href='przyciski'>
+										<svg
+											version='1.1'
+											xmlns='http://www.w3.org/2000/svg'
+											className='btn_ikon_svg'
+											viewBox='0 0 35 30'>
+											<path d='M12 29c0 1.657-1.343 3-3 3s-3-1.343-3-3c0-1.657 1.343-3 3-3s3 1.343 3 3z'></path>
+											<path d='M32 29c0 1.657-1.343 3-3 3s-3-1.343-3-3c0-1.657 1.343-3 3-3s3 1.343 3 3z'></path>
+											<path d='M32 16v-12h-24c0-1.105-0.895-2-2-2h-6v2h4l1.502 12.877c-0.915 0.733-1.502 1.859-1.502 3.123 0 2.209 1.791 4 4 4h24v-2h-24c-1.105 0-2-0.895-2-2 0-0.007 0-0.014 0-0.020l26-3.98z'></path>
+										</svg>
+										Produkty
+									</p>
+									{/* <ul
 										onMouseLeave={clickListMove}
 										className='drop_list'
 										style={{ display: list }}>
@@ -106,21 +106,22 @@ function Header() {
 											<a href='przyciski'>Brukarstwo</a>
 										</li>
 									</ul> */}
-							</li>
-							<li className='heder_nav_list_item'>
-								<a className='btn_ikon' href='przyciski'>
-									<svg
-										version='1.1'
-										xmlns='http://www.w3.org/2000/svg'
-										className='btn_ikon_svg'
-										viewBox='0 0 32 32'>
-										>
-										<path d='M29 4h-26c-1.65 0-3 1.35-3 3v20c0 1.65 1.35 3 3 3h26c1.65 0 3-1.35 3-3v-20c0-1.65-1.35-3-3-3zM12.461 17.199l-8.461 6.59v-15.676l8.461 9.086zM5.512 8h20.976l-10.488 7.875-10.488-7.875zM12.79 17.553l3.21 3.447 3.21-3.447 6.58 8.447h-19.579l6.58-8.447zM19.539 17.199l8.461-9.086v15.676l-8.461-6.59z'></path>
-									</svg>
-									Kontakt
-								</a>
-							</li>
-						</ul>
+								</li>
+								<li className='heder_nav_list_item'>
+									<a className='btn_ikon' href='przyciski'>
+										<svg
+											version='1.1'
+											xmlns='http://www.w3.org/2000/svg'
+											className='btn_ikon_svg'
+											viewBox='0 0 32 32'>
+											>
+											<path d='M29 4h-26c-1.65 0-3 1.35-3 3v20c0 1.65 1.35 3 3 3h26c1.65 0 3-1.35 3-3v-20c0-1.65-1.35-3-3-3zM12.461 17.199l-8.461 6.59v-15.676l8.461 9.086zM5.512 8h20.976l-10.488 7.875-10.488-7.875zM12.79 17.553l3.21 3.447 3.21-3.447 6.58 8.447h-19.579l6.58-8.447zM19.539 17.199l8.461-9.086v15.676l-8.461-6.59z'></path>
+										</svg>
+										Kontakt
+									</a>
+								</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>

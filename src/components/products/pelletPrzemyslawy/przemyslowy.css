@@ -1,4 +1,4 @@
-.conteiner {
+/* .conteiner {
 	min-height: 60vh;
 	padding: 50px 0;
 }
@@ -13,9 +13,9 @@
 	justify-content:flex-start;
 	font-family: 'Droid Sans';
 	
-}
+} */
 
-.title {
+/* .title {
 	display: flex;
     font-size: 14px;
     padding-right: ;
@@ -23,12 +23,12 @@
 }
 
 .box__list {
-	/* display: flex; */
-	/* flex-wrap: wrap; */
+	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
-}
+} */
 
-.box__list__item {
+/* .box__list__item {
 	display: flex;
     font-size: 12px;
 	margin-bottom: 30px;
@@ -37,8 +37,8 @@
 	height: 80px;
 	width: 80px;
 	background-color: aqua;
-}
-.box__left {
+} */
+/* .box__left {
     
 }
 
@@ -50,15 +50,14 @@
     display: flex;
     border: 5px solid #f44336;
     padding: 20px;
-}
+} */
 
 /* .box__right:not(:last-child) {
     margin-right: 30px;
 } */
 
-.box__header {
+/* .box__header {
     display: block;
-    /* padding: 20px 0; */
 }
 
 .box__header__title {
@@ -71,14 +70,13 @@
 }
 
 .box__text {
-    /* display: block; */
+    display: block;
     padding: 0px 0 0 20px;
 }
 .box__text__title {
-    /* display: block; */
     font-size: 24px;
     padding: 20px 0;
 }
 .box__text__description {
 
-}
+} */

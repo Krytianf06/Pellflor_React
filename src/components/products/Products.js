@@ -1,7 +1,7 @@
 import React from "react";
 import "./products.css";
 import AgroPellet from "./agroPellet/AgroPellet";
-import KlassaA1 from './pelletKlasaA1/KlassaA1';
+import KlassaA1 from "./pelletKlasaA1/KlassaA1";
 import Przemyslowy from "./pelletPrzemyslawy/Przemyslowy";
 
 function Products() {
@@ -16,8 +16,8 @@ function Products() {
 						<li className='box__list__item'>Agro Pellet</li>
 					</ul>
 				</div>
-				{/* <AgroPellet /> */}
-				<KlassaA1 />
+				<AgroPellet />
+				{/* <KlassaA1 /> */}
 				{/* <Przemyslowy/> */}
 			</div>
 		</div>

@@ -5,7 +5,7 @@ function KlassaA1() {
 	return (
 		<div className='box__right'>
 			<div className='box__header'>
-				<h1 className='box__header__title'>Pellet Klassy A1</h1>
+				{/* <h1 className='box__header__title'>Pellet Klassy A1</h1> */}
 				<img
 					className='box__header__picture'
 					src={process.env.PUBLIC_URL + "./images/klasaA1.jpg"}
@@ -32,7 +32,7 @@ function KlassaA1() {
 					wysokimi parametrami spalania, dając nam tym samym czystość i
 					bezpieczeństwo.
 				</p>
-				<h1 className='box__text__title'>Pellet drzewny — zalety klasy A1</h1>
+				<h1 className='box__text__title'>Zalety</h1>
 				<p className='box__text__description'>
 					Niska zawartość popiołu i czystość spalania to nie jedyne zalety
 					pelletu klasy A1. Pellet drzewny w tej klasie charakteryzuje się
@@ -47,7 +47,7 @@ function KlassaA1() {
 					domy również!
 				</p>
 				<h1 className='box__text__title'>Właściwości pelletu:</h1>
-				<ul>
+				<ul className="box__text__list">
 					<li>
 						Ekologiczny materiał, wyprodukowany z naturalnego materiału (trocin
 						drzew)
@@ -70,6 +70,7 @@ function KlassaA1() {
 						koszty ogrzewania..
 					</li>
 				</ul>
+				<h1 className='box__text__title'>Proces produkcji</h1>
 				<p className='box__text__description'>
 					Produkowany przez nas pellet to materiał grzewczy wysokiej jakości. Ze
 					względu na swoją granulowaną formę oraz walory ekologiczne ma również
@@ -81,24 +82,10 @@ function KlassaA1() {
 					materiałów grzewczych. W związku z tym oferujemy wysoką jakość,
 					bezpieczne i starannie wyselekcjonowane materiały produktowe oraz
 					konkurencyjny cennik usług. Do produkcji wykorzystujemy trociny
-					liściasto-iglaste ,które charakteryzują się bardzo dobrą spoistością i
-					jasną barwą pelletu.W etapie produkcji używa się suszarni taśmowej ,
+					liściasto-iglaste, które charakteryzują się bardzo dobrą spoistością i
+					jasną barwą pelletu.W etapie produkcji używa się suszarni taśmowej,
 					której efektem jest unikanie nadpalenia materiału. Najważniejszym
-					atrybutem jest brak zużlowania naszego produktu w piecach .
-				</p>
-				<h1 className='box__text__title'>Pellet drzewny — zalety klasy A1</h1>
-				<p className='box__text__description'>
-					Niska zawartość popiołu i czystość spalania to nie jedyne zalety
-					pelletu klasy A1. Pellet drzewny w tej klasie charakteryzuje się
-					również wysoką efektywnością, a to dzięki swojej dużej kaloryczności.
-					Wysokie parametry spalania zapewniają mniejsze zużycie produktu. Im
-					niższa klasa pelletu, tym wyższa jego wartość odrzutu, a my musimy
-					zużyć go więcej, by ogrzać ten sam metraż. Konsekwencje tego można
-					odczuć zwłaszcza przy dłuższym użytkowaniu — gorszego jakościowo
-					pelletu trzeba zużywać po prostu więcej. Nie jest on więc opłacalnym
-					rozwiązaniem. Jednak nie tylko człowiek i środowisko zyskują na
-					używaniu pelletu najwyższej klasy. Nasze urządzenia grzewcze oraz całe
-					domy również!
+					atrybutem jest brak zużlowania naszego produktu w piecach.
 				</p>
 			</div>
 		</div>

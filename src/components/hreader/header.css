@@ -73,7 +73,6 @@
 	margin: 0 auto;
 	justify-content: space-between;
 	align-items: center;
-	
 
 }
 
@@ -90,10 +89,10 @@
 	font-size: 54px;
 	line-height: 2.25;
 	letter-spacing: 0.06em;
-	color: green;
+	color: rgb(0,199,71);
 }
 .logo__text-color {
-	color: brown;
+	color: rgb(237,28,36);
 }
 
 .heder_nav_list {
@@ -143,7 +142,7 @@
 	font-size: 18px;
 	line-height: 2.25;
 	letter-spacing: 0.06em;
-	color: rgb(41, 78, 36);
+	color: rgb(2, 109, 39);
 }
 
 .btn_ikon_svg {
@@ -152,7 +151,7 @@
 	width: 60px;
 	height: 50px;
 	border-radius: 30%;
-	fill: rgb(41, 78, 36);
+	fill: rgb(2, 109, 39);
 }
 
 .btn_ikon:hover .btn_ikon_svg,
