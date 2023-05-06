@@ -1,5 +1,4 @@
 import React from "react";
-import "./przemyslowy.css";
 
 function Przemyslowy() {
 	return (

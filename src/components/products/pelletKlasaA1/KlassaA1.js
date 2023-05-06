@@ -1,5 +1,4 @@
 import React from "react";
-import "./klassaA1.css";
 
 function KlassaA1() {
 	return (
