@@ -1,11 +1,8 @@
 import React from "react";
-import { Outlet } from "react-router-dom";
 import "./products.css";
-import AgroPellet from "./agroPellet/AgroPellet";
-import KlassaA1 from "./pelletKlasaA1/KlassaA1";
 import Przemyslowy from "./pelletPrzemyslawy/Przemyslowy";
 
-function Products() {
+function Products3() {
 	return (
 			<div className='conteiner'>
 			<div className='box'>
@@ -17,10 +14,10 @@ function Products() {
 						<li className='box__list__item'>Agro Pellet</li>
 					</ul>
 				</div>
-				<Outlet/>
+				<Przemyslowy/>
 			</div>
 		</div>
 	);
 }
 
-export default Products;
+export default Products3;

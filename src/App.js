@@ -3,10 +3,10 @@ import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Base from "./components/base/Base";
 import Home from "./components/Home/Home";
-import Products from "./components/products/Products";
-import AgroPellet from "./components/products/agroPellet/AgroPellet";
-import KlassaA1 from "./components/products/pelletKlasaA1/KlassaA1";
-import Przemyslowy from "./components/products/pelletPrzemyslawy/Przemyslowy";
+import Products1 from "./components/products/Products1";
+import Products2 from './components/products/Products2';
+import Products3 from './components/products/Products3';
+
 
 const router = createBrowserRouter([
 	{
@@ -14,30 +14,23 @@ const router = createBrowserRouter([
 		element: <Base />,
 		children: [
 			{
-				path: "home",
+				index: true,
 				element: <Home />,
 			},
 			{
-				path: "products",
-				element: <Products />,
-				children: [
-					{
-						index: true,
-						element: <AgroPellet />,
-					},
-					{
-						path: "klassaa1",
-						element: <KlassaA1 />,
-					},
-					{
-						path: "przemyslowy",
-						element: <Przemyslowy />,
-					},
-				],
+				path: "klassaa1",
+				element: <Products1 />,
+				
 			},
 			{
-				path: "home",
-				element: <Home />,
+				path: "agropellet",
+				element: <Products2 />,
+				
+			},
+			{
+				path: "przemyslowy",
+				element: <Products3 />,
+				
 			},
 		],
 	},
