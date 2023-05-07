@@ -1,4 +1,6 @@
 import React from "react";
+import Header from "../hreader/Header";
+import Footer from "../footer/Footer";
 import "./home.css";
 
 function Home() {
@@ -75,6 +77,7 @@ function Home() {
 				</div>
 			</div>
 		</div>
+			
 	);
 }
 

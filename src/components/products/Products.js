@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import "./products.css";
 import AgroPellet from "./agroPellet/AgroPellet";
 import KlassaA1 from "./pelletKlasaA1/KlassaA1";
@@ -17,10 +17,7 @@ function Products() {
 						<li className='box__list__item'>Agro Pellet</li>
 					</ul>
 				</div>
-				{/* <Route path="/products/agropellet" element={<AgroPellet />}/> */}
-					
-					{/* <KlassaA1 /> */}
-					{/* <Przemyslowy /> */}
+				<Outlet/>
 			</div>
 		</div>
 	);
