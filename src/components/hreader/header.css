@@ -127,14 +127,16 @@
 	fill: rgb(2, 109, 39);
 }
 
-.btn_ikon:hover .btn_ikon_svg,
-.btn_ikon:hover {
+.btn_ikon:hover
+.btn_ikon:hover
+.btn_ikon:focus
+.btn_ikon:focus {
 	cursor: pointer;
 	color: deeppink;
 	fill: deeppink;
 }
 
-.btn_ikon:active .btn_ikon_svg,
+.btn_ikon:active
 .btn_ikon:active {
 	cursor: pointer;
 	color: deeppink;

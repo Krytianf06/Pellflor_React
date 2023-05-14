@@ -32,10 +32,10 @@ function Header() {
 						<a href='tel:48721720680'> tel.: +48 721-720-680</a>
 					</div>
 					<div className='email link'>
-						<a href='mailto:kamilos@gmail.com'>Email: kamilos@gmail.com</a>
+						<a href='mailto:kamilos@gmail.com'>Email: pellflor@wp.pl</a>
 					</div>
 					<div className='adress link'>
-						<a href='adres'>Adress: 61-065 Wolkowo, Doły 11</a>
+						<a href='adres'>Adress: 64-060 Wolkowo, Doły 11</a>
 					</div>
 				</div>
 				<div className='shadows'>
@@ -62,7 +62,7 @@ function Header() {
 											viewBox='0 0 32 32'>
 											<path d='M32 18.451l-16-12.42-16 12.42v-5.064l16-12.42 16 12.42zM28 18v12h-8v-8h-8v8h-8v-12l12-9z'></path>
 									</svg> HOME</NavLink>
-									<NavLink className='heder_nav_list_item btn_ikon' to="/klassaa1" >
+									<NavLink className='heder_nav_list_item btn_ikon' to="/products" >
 									<svg
 											version='1.1'
 											xmlns='http://www.w3.org/2000/svg'
@@ -73,7 +73,7 @@ function Header() {
 											<path d='M32 16v-12h-24c0-1.105-0.895-2-2-2h-6v2h4l1.502 12.877c-0.915 0.733-1.502 1.859-1.502 3.123 0 2.209 1.791 4 4 4h24v-2h-24c-1.105 0-2-0.895-2-2 0-0.007 0-0.014 0-0.020l26-3.98z'></path>
 										</svg>
 										Produkty</NavLink>
-									<NavLink className='heder_nav_list_item btn_ikon' to="/home" >
+									<NavLink className='heder_nav_list_item btn_ikon' to="/contact" >
 									<svg
 											version='1.1'
 											xmlns='http://www.w3.org/2000/svg'

@@ -1,5 +1,5 @@
 import React from "react";
-import Iframe from "react-iframe";
+// import Iframe from "react-iframe";
 import "./footer.css";
 
 function Footer() {
@@ -14,7 +14,7 @@ function Footer() {
 								Pellflor Mirosława Chojnacka
 							</li>
 							<li className='adress__list__iteam'>Doły 11</li>
-							<li className='adress__list__iteam'>61-065 Wolkowo</li>
+							<li className='adress__list__iteam'>64-060 Wolkowo</li>
 							<li className='adress__list__iteam'>woj. wielkopolskie</li>
 						</ul>
 					</div>
@@ -22,14 +22,14 @@ function Footer() {
 						<h1 className='footer__title'>Dane kontaktowe</h1>
 						<ul className='contact__list footer__text'>
 							<li className='contact__list__iteam'>
-								<a href='mailto:kamilos@gmail.com'>Email: kamilos@gmail.com</a>
+								<a href='mailto:kamilos@gmail.com'>Email: pellflor@wp.pl</a>
 							</li>
 							<li className='contact__list__iteam'>
 								<a href='tel:48721720680'> tel.: +48 721-720-680</a>
 							</li>
 						</ul>
 					</div>
-					<div>
+					{/* <div>
 						<Iframe
 							src='https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1317.372583623402!2d16.535039010846393!3d52.18871350124975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNTLCsDExJzE5LjUiTiAxNsKwMzInMDcuOSJF!5e1!3m2!1spl!2spl!4v1680039078217!5m2!1spl!2spl'
 							width='300'
@@ -37,7 +37,7 @@ function Footer() {
 							allowfullscreen=''
 							loading='lazy'
 							referrerpolicy='no-referrer-when-downgrade'></Iframe>
-					</div>
+					</div> */}
 					<div className='socialMedia box-text'>
 						<h1 className='footer__title'>Znajdziesz nas również</h1>
 						<ul className='socialMedia__list'>

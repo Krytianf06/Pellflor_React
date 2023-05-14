@@ -14,7 +14,8 @@
 
 .title {
 	font-family: 'Roboto';
-	font-size: 14px;
+	text-align: center;
+	font-size: 20px;
 	font-weight: 600;
 	color: #000;
 	padding: 20px 10px;
@@ -24,17 +25,24 @@
 .box__list__item {
 	display: flex;
 	font-family: 'Roboto';
-	font-size: 13px;
+	font-size: 16px;
 	font-weight: 600;
 	margin-bottom: 30px;
 	justify-content: center;
 	align-items: center;
-	height: 80px;
-	width: 90px;
+	text-align: center;
+	height: 100px;
+	width: 120px;
 	background-color: rgb(0,199,71);
 	color: #000;
 	border-radius: 40%;
 	padding: 10px;
+}
+
+.box__list__item:hover,
+.box__list__item:focus
+{
+	color: deeppink;
 }
 .box__left {
 	top: auto;
