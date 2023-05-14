@@ -4,12 +4,12 @@ import {
 	createBrowserRouter,
 	RouterProvider,
 	createRoutesFromElements,
-	Route
+	Route,
 } from "react-router-dom";
 // import Router from 'react-easy-router';
 import Base from "./components/base/Base";
 import Home from "./components/Home/Home";
-import ListProducts from "./components/listProducts/ListProducts"
+import ListProducts from "./components/listProducts/ListProducts";
 import Products1 from "./components/products/KlasaA1";
 import Products2 from "./components/products/Agropellet";
 import Products3 from "./components/products/Przemyslowy";
@@ -20,9 +20,10 @@ function App() {
 	const router = createBrowserRouter(
 		createRoutesFromElements(
 			<Route path='/' element={<Base />}>
+				<Route path='/' element={<Home />} />
 				<Route path='home' element={<Home />} />
 				<Route path='products' element={<ListProducts />} />
-				<Route path='klasaa1' element={<Products1 />}/>
+				<Route path='klasaa1' element={<Products1 />} />
 				<Route path='agropellet' element={<Products2 />} />
 				<Route path='przemyslowy' element={<Products3 />} />
 				<Route path='contact' element={<Contact />} />
