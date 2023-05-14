@@ -72,7 +72,7 @@
 	display: flex;
 }
 
-.heder_nav_list > li:not(:last-child) {
+.heder_nav_list > a:not(:last-child) {
 	margin-right: 50px;
 }
 
@@ -129,6 +129,13 @@
 
 .btn_ikon:hover .btn_ikon_svg,
 .btn_ikon:hover {
+	cursor: pointer;
+	color: deeppink;
+	fill: deeppink;
+}
+
+.btn_ikon:active .btn_ikon_svg,
+.btn_ikon:active {
 	cursor: pointer;
 	color: deeppink;
 	fill: deeppink;

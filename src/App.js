@@ -12,6 +12,7 @@ import Home from "./components/Home/Home";
 import Products1 from "./components/products/Products1";
 import Products2 from "./components/products/Products2";
 import Products3 from "./components/products/Products3";
+import { NotFound } from "./components/NotFound";
 
 function App() {
 	const router = createBrowserRouter(
@@ -21,6 +22,7 @@ function App() {
 				<Route path='klassaa1' element={<Products1 />} />
 				<Route path='agropellet' element={<Products2 />} />
 				<Route path='przemyslowy' element={<Products3 />} />
+				<Route path='*' element={<NotFound />} />
 			</Route>
 		)
 	);
