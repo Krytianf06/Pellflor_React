@@ -6,7 +6,6 @@ import {
 	createRoutesFromElements,
 	Route,
 } from "react-router-dom";
-// import Router from 'react-easy-router';
 import Base from "./components/base/Base";
 import Home from "./components/Home/Home";
 import ListProducts from "./components/listProducts/ListProducts";
