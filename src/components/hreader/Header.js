@@ -22,6 +22,7 @@ function Header() {
 		backgroundSize: "cover",
 		backgroundRepeat: "no-repeat",
 		transitionDuration: "1s",
+		margin: "0",
 	};
 
 	return (

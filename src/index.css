@@ -22,7 +22,6 @@ code {
 
 /* header */
 .header {
-	/* position: absolute; */
 	display: block;
 	padding: auto;
 	margin: 0 auto;
@@ -33,6 +32,7 @@ code {
 
 .header_top {
 	display: flex;
+	/* margin: 0 auto; */
 	padding: 5px 10px;
 	justify-content: center;
 	align-items: center;
