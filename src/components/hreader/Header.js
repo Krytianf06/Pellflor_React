@@ -37,7 +37,7 @@ function Header() {
 						<a href='mailto:kamilos@gmail.com'>Email: pellflor@wp.pl</a>
 					</div>
 					<div className='adress link'>
-						<a href='adres'>Adress: 64-060 Wolkowo, Doły 11</a>
+						<a href='adres'>Adress: nieznany/a>
 					</div>
 				</div>
 				<div className='shadows'>
