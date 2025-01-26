@@ -10,6 +10,7 @@ function Header() {
 		const timer = setTimeout(() => {
 			if (currentState === 2) {
 				setCurrentState(0);
+				console.log("klops zmiana");
 			} else {
 				setCurrentState(currentState + 1);
 			}
