@@ -6,13 +6,33 @@ import imageSlider from "../data";
 
 function Header() {
 
+	function fetchUsers() {
+		fetch('https://amunatcoll.pl:8000/login/',
+		  {
+			mode: 'cors',
+			method: 'POST',
+			headers: {
+			  'Accept': 'application/json',
+			  'Content-Type': 'application/json',
+			  'Origin': 'https://amunatcoll.pl:8000/',
+			  'access-control-allow-credentials': 'true',
+			}, body: JSON.stringify({
+			  "username": "kf63083@amu.edu.pl",
+			  "password": "Krychu11L19*63083"
+			})
+		  })
+		  .then(res => res.json())
+		  .then((dane) => danePlki(dane))
+	  };
 	
 	const [currentState, setCurrentState] = useState(1);
 	useEffect(() => {
 		const timer = setTimeout(() => {
 			if (currentState === 2) {
 				setCurrentState(0);
-				console.log("klops zmiana");
+				console.log("przed zapytanie");
+				fetchUsers();
+				console.log("po zapytaniu");
 			} else {
 				setCurrentState(currentState + 1);
 			}
